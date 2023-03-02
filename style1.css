@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+    background: url(css/images/rest1.jpg) no-repeat center ;
+}
+
+.container 
+{
+    background-color: #fafafa;
+    margin: 100px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container-time {
+    background-color: bisque;
+    padding: 50px;
+    outline: 2px ridge #998100;
+    outline-offset: -30px;
+    text-align: center;
+}
+
+
+.heading 
+{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+    
+.heading-days 
+{
+    color:#998100;
+    font-size: 30px;
+}
+
+
+.container-form
+{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000;
+}
+
+form
+{
+    display: grid;
+    grid-row-gap: 20px;
+}
+form p 
+{
+    font-weight: 600;
+    padding-right: 10%;
+}
+
+.form-field 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input,select 
+{
+    padding: 10px 15px;
+}
+
+.btn 
+{
+    background-color: rgba(0, 0, 0, .95);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 30px;
+
+}
+    
+.btn:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+}
